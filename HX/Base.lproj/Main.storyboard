@@ -317,6 +317,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Mvr-Ic-U6b" kind="push" id="Cbh-HL-bfz"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -334,6 +337,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lQG-yo-9Fe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-216.80000000000001" y="1519.7901049475263"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="lAl-yN-Mlq">
+            <objects>
+                <viewController id="Mvr-Ic-U6b" customClass="WMTSettingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5NG-t2-m0r" customClass="WMT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFz-wx-KA5">
+                                <rect key="frame" x="0.0" y="364" width="375" height="44"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="KtJ-I7-Rcg"/>
+                                </constraints>
+                                <state key="normal" title="退出登录"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jP8-4Z-IZM" firstAttribute="trailing" secondItem="xFz-wx-KA5" secondAttribute="trailing" id="V10-uH-FhP"/>
+                            <constraint firstItem="xFz-wx-KA5" firstAttribute="top" secondItem="jP8-4Z-IZM" secondAttribute="top" constant="300" id="Vsp-gH-Lr9"/>
+                            <constraint firstItem="xFz-wx-KA5" firstAttribute="leading" secondItem="jP8-4Z-IZM" secondAttribute="leading" id="mBK-Hg-i77"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jP8-4Z-IZM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="E26-Zs-N0G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vnr-1h-hc0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="505" y="1517"/>
         </scene>
         <!--我-->
         <scene sceneID="MlV-gH-J2N">

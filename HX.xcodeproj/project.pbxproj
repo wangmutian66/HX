@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9BDEEAD46C29DA2E915C0162 /* libPods-HX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D85A8C7A1448A3081A7047E2 /* libPods-HX.a */; };
+		ECB6DCC6201AC19D006BD32C /* WMTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCC5201AC19C006BD32C /* WMTSettingViewController.m */; };
+		ECB6DCCD201AC3FF006BD32C /* WMTWeChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCCC201AC3FF006BD32C /* WMTWeChatController.m */; };
 		ECF2F4842018B21900BE303E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF2F4832018B21900BE303E /* AppDelegate.m */; };
 		ECF2F4872018B21900BE303E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF2F4862018B21900BE303E /* ViewController.m */; };
 		ECF2F48A2018B21900BE303E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF2F4882018B21900BE303E /* Main.storyboard */; };
@@ -64,6 +66,10 @@
 		0A03A63AF64FB0810C5E3FE1 /* Pods-HX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HX.release.xcconfig"; path = "Pods/Target Support Files/Pods-HX/Pods-HX.release.xcconfig"; sourceTree = "<group>"; };
 		BC9FCC926DB5ABEB5AB84B2B /* Pods-HX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HX/Pods-HX.debug.xcconfig"; sourceTree = "<group>"; };
 		D85A8C7A1448A3081A7047E2 /* libPods-HX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB6DCC4201AC19C006BD32C /* WMTSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTSettingViewController.h; sourceTree = "<group>"; };
+		ECB6DCC5201AC19C006BD32C /* WMTSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTSettingViewController.m; sourceTree = "<group>"; };
+		ECB6DCCB201AC3FF006BD32C /* WMTWeChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTWeChatController.h; sourceTree = "<group>"; };
+		ECB6DCCC201AC3FF006BD32C /* WMTWeChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTWeChatController.m; sourceTree = "<group>"; };
 		ECF2F47F2018B21900BE303E /* HX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF2F4822018B21900BE303E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECF2F4832018B21900BE303E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,6 +144,39 @@
 				D85A8C7A1448A3081A7047E2 /* libPods-HX.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB6DCC7201AC3D5006BD32C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6DCC8201AC3D5006BD32C /* Controller */,
+				ECB6DCC9201AC3D5006BD32C /* Model */,
+				ECB6DCCA201AC3D5006BD32C /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		ECB6DCC8201AC3D5006BD32C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6DCCB201AC3FF006BD32C /* WMTWeChatController.h */,
+				ECB6DCCC201AC3FF006BD32C /* WMTWeChatController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB6DCC9201AC3D5006BD32C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB6DCCA201AC3D5006BD32C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		ECF2F4762018B21900BE303E = {
@@ -220,6 +259,7 @@
 		ECF2F4BF2019D5C400BE303E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				ECB6DCC7201AC3D5006BD32C /* Chat */,
 				ECF2F4D02019F92200BE303E /* ME */,
 				ECF2F4CE2019EEBA00BE303E /* other */,
 				ECF2F4C02019D5C400BE303E /* Main */,
@@ -272,6 +312,8 @@
 			children = (
 				ECF2F4D42019FADD00BE303E /* WMTTablemeViewController.h */,
 				ECF2F4D52019FADD00BE303E /* WMTTablemeViewController.m */,
+				ECB6DCC4201AC19C006BD32C /* WMTSettingViewController.h */,
+				ECB6DCC5201AC19C006BD32C /* WMTSettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -486,6 +528,8 @@
 			files = (
 				ECF2F4C42019D60E00BE303E /* WmttabController.m in Sources */,
 				ECF2F4CD2019ED5C00BE303E /* UINavigationBar+Awesome.m in Sources */,
+				ECB6DCC6201AC19D006BD32C /* WMTSettingViewController.m in Sources */,
+				ECB6DCCD201AC3FF006BD32C /* WMTWeChatController.m in Sources */,
 				ECF2F4872018B21900BE303E /* ViewController.m in Sources */,
 				ECF2F4922018B21900BE303E /* main.m in Sources */,
 				ECF2F4842018B21900BE303E /* AppDelegate.m in Sources */,
