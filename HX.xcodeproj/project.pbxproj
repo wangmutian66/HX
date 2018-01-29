@@ -10,6 +10,14 @@
 		9BDEEAD46C29DA2E915C0162 /* libPods-HX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D85A8C7A1448A3081A7047E2 /* libPods-HX.a */; };
 		ECB6DCC6201AC19D006BD32C /* WMTSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCC5201AC19C006BD32C /* WMTSettingViewController.m */; };
 		ECB6DCCD201AC3FF006BD32C /* WMTWeChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCCC201AC3FF006BD32C /* WMTWeChatController.m */; };
+		ECB6DCD4201B2427006BD32C /* WMTContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCD3201B2427006BD32C /* WMTContactController.m */; };
+		ECB6DCD7201BEEB2006BD32C /* WMTUserInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCD6201BEEB2006BD32C /* WMTUserInfoController.m */; };
+		ECB6DCD9201BEEE9006BD32C /* WMTUserInfoController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB6DCD8201BEEE9006BD32C /* WMTUserInfoController.storyboard */; };
+		ECB6DCDC201BFE67006BD32C /* WMTChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCDB201BFE67006BD32C /* WMTChatViewController.m */; };
+		ECB6DCDF201BFFCD006BD32C /* WMTinputview.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCDE201BFFCD006BD32C /* WMTinputview.m */; };
+		ECB6DCE1201BFFEE006BD32C /* WMTinputview.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB6DCE0201BFFEE006BD32C /* WMTinputview.xib */; };
+		ECB6DCE4201D9C3B006BD32C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCE3201D9C3B006BD32C /* UIView+Frame.m */; };
+		ECB6DCE7201E055A006BD32C /* WMTMoreinputkeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB6DCE6201E055A006BD32C /* WMTMoreinputkeyboardView.m */; };
 		ECF2F4842018B21900BE303E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF2F4832018B21900BE303E /* AppDelegate.m */; };
 		ECF2F4872018B21900BE303E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF2F4862018B21900BE303E /* ViewController.m */; };
 		ECF2F48A2018B21900BE303E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF2F4882018B21900BE303E /* Main.storyboard */; };
@@ -70,6 +78,20 @@
 		ECB6DCC5201AC19C006BD32C /* WMTSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTSettingViewController.m; sourceTree = "<group>"; };
 		ECB6DCCB201AC3FF006BD32C /* WMTWeChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTWeChatController.h; sourceTree = "<group>"; };
 		ECB6DCCC201AC3FF006BD32C /* WMTWeChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTWeChatController.m; sourceTree = "<group>"; };
+		ECB6DCD2201B2427006BD32C /* WMTContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTContactController.h; sourceTree = "<group>"; };
+		ECB6DCD3201B2427006BD32C /* WMTContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTContactController.m; sourceTree = "<group>"; };
+		ECB6DCD5201BEEB2006BD32C /* WMTUserInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTUserInfoController.h; sourceTree = "<group>"; };
+		ECB6DCD6201BEEB2006BD32C /* WMTUserInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTUserInfoController.m; sourceTree = "<group>"; };
+		ECB6DCD8201BEEE9006BD32C /* WMTUserInfoController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WMTUserInfoController.storyboard; sourceTree = "<group>"; };
+		ECB6DCDA201BFE67006BD32C /* WMTChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTChatViewController.h; sourceTree = "<group>"; };
+		ECB6DCDB201BFE67006BD32C /* WMTChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTChatViewController.m; sourceTree = "<group>"; };
+		ECB6DCDD201BFFCD006BD32C /* WMTinputview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTinputview.h; sourceTree = "<group>"; };
+		ECB6DCDE201BFFCD006BD32C /* WMTinputview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTinputview.m; sourceTree = "<group>"; };
+		ECB6DCE0201BFFEE006BD32C /* WMTinputview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WMTinputview.xib; sourceTree = "<group>"; };
+		ECB6DCE2201D9C3B006BD32C /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		ECB6DCE3201D9C3B006BD32C /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		ECB6DCE5201E055A006BD32C /* WMTMoreinputkeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMTMoreinputkeyboardView.h; sourceTree = "<group>"; };
+		ECB6DCE6201E055A006BD32C /* WMTMoreinputkeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMTMoreinputkeyboardView.m; sourceTree = "<group>"; };
 		ECF2F47F2018B21900BE303E /* HX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF2F4822018B21900BE303E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECF2F4832018B21900BE303E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,6 +201,49 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		ECB6DCCE201B23DF006BD32C /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6DCCF201B23DF006BD32C /* Controller */,
+				ECB6DCD0201B23DF006BD32C /* Model */,
+				ECB6DCD1201B23DF006BD32C /* View */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		ECB6DCCF201B23DF006BD32C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6DCD2201B2427006BD32C /* WMTContactController.h */,
+				ECB6DCD3201B2427006BD32C /* WMTContactController.m */,
+				ECB6DCD5201BEEB2006BD32C /* WMTUserInfoController.h */,
+				ECB6DCD6201BEEB2006BD32C /* WMTUserInfoController.m */,
+				ECB6DCD8201BEEE9006BD32C /* WMTUserInfoController.storyboard */,
+				ECB6DCDA201BFE67006BD32C /* WMTChatViewController.h */,
+				ECB6DCDB201BFE67006BD32C /* WMTChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECB6DCD0201B23DF006BD32C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECB6DCD1201B23DF006BD32C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECB6DCDD201BFFCD006BD32C /* WMTinputview.h */,
+				ECB6DCDE201BFFCD006BD32C /* WMTinputview.m */,
+				ECB6DCE0201BFFEE006BD32C /* WMTinputview.xib */,
+				ECB6DCE5201E055A006BD32C /* WMTMoreinputkeyboardView.h */,
+				ECB6DCE6201E055A006BD32C /* WMTMoreinputkeyboardView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ECF2F4762018B21900BE303E = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +324,7 @@
 		ECF2F4BF2019D5C400BE303E /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				ECB6DCCE201B23DF006BD32C /* Contact */,
 				ECB6DCC7201AC3D5006BD32C /* Chat */,
 				ECF2F4D02019F92200BE303E /* ME */,
 				ECF2F4CE2019EEBA00BE303E /* other */,
@@ -293,6 +359,8 @@
 				ECF2F4CB2019ED5C00BE303E /* UINavigationBar+Awesome.h */,
 				ECF2F4CC2019ED5C00BE303E /* UINavigationBar+Awesome.m */,
 				ECF2F4CF2019F61600BE303E /* prefixHeader.pch */,
+				ECB6DCE2201D9C3B006BD32C /* UIView+Frame.h */,
+				ECB6DCE3201D9C3B006BD32C /* UIView+Frame.m */,
 			);
 			path = other;
 			sourceTree = "<group>";
@@ -443,7 +511,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB6DCD9201BEEE9006BD32C /* WMTUserInfoController.storyboard in Resources */,
 				ECF2F48F2018B21900BE303E /* LaunchScreen.storyboard in Resources */,
+				ECB6DCE1201BFFEE006BD32C /* WMTinputview.xib in Resources */,
 				ECF2F48C2018B21900BE303E /* Assets.xcassets in Resources */,
 				ECF2F48A2018B21900BE303E /* Main.storyboard in Resources */,
 			);
@@ -527,14 +597,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF2F4C42019D60E00BE303E /* WmttabController.m in Sources */,
+				ECB6DCD4201B2427006BD32C /* WMTContactController.m in Sources */,
 				ECF2F4CD2019ED5C00BE303E /* UINavigationBar+Awesome.m in Sources */,
 				ECB6DCC6201AC19D006BD32C /* WMTSettingViewController.m in Sources */,
 				ECB6DCCD201AC3FF006BD32C /* WMTWeChatController.m in Sources */,
 				ECF2F4872018B21900BE303E /* ViewController.m in Sources */,
 				ECF2F4922018B21900BE303E /* main.m in Sources */,
+				ECB6DCE7201E055A006BD32C /* WMTMoreinputkeyboardView.m in Sources */,
 				ECF2F4842018B21900BE303E /* AppDelegate.m in Sources */,
 				ECF2F4D62019FADD00BE303E /* WMTTablemeViewController.m in Sources */,
+				ECB6DCDC201BFE67006BD32C /* WMTChatViewController.m in Sources */,
+				ECB6DCE4201D9C3B006BD32C /* UIView+Frame.m in Sources */,
 				ECF2F4C72019DA1C00BE303E /* WMTNavigationController.m in Sources */,
+				ECB6DCD7201BEEB2006BD32C /* WMTUserInfoController.m in Sources */,
+				ECB6DCDF201BFFCD006BD32C /* WMTinputview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,6 +696,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=appletvsimulator*]" = default;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -640,6 +718,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LIBTOOLFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -677,6 +756,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -691,6 +771,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				NEW_SETTING = "";
 				OTHER_LIBTOOLFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

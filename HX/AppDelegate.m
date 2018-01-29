@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <HyphenateLite/HyphenateLite.h>
-#import <Hyphenate/Hyphenate.h>
+
 
 @interface AppDelegate ()
 
@@ -21,6 +20,7 @@
     // Override point for customization after application launch.
     //AppKey:注册的AppKey，详细见下面注释。
     //apnsCertName:推送证书名（不需要加后缀），详细见下面注释。
+//    self.window.backgroundColor = [UIColor redColor];
     EMOptions *options = [EMOptions optionsWithAppkey:@" 1195180123178705#suibiantian"];
     options.apnsCertName = nil;
     [[EMClient sharedClient] initializeSDKWithOptions:options];

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WMTinputview">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ORM-Ls-QnI">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNv-JS-3Y5">
+                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="aTm-oz-2tP"/>
+                    </constraints>
+                    <state key="normal" image="ToolViewInputVoice"/>
+                    <state key="highlighted" image="ToolViewInputVoiceHL"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCj-Cq-KdU">
+                    <rect key="frame" x="232" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="6Ra-Cm-xx9"/>
+                    </constraints>
+                    <state key="normal" image="ToolViewEmotion"/>
+                    <state key="highlighted" image="ToolViewEmotionHL"/>
+                    <connections>
+                        <action selector="dhua2:" destination="iN0-l3-epB" eventType="touchUpInside" id="dAr-dM-Ebq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vo0-Sv-4dy">
+                    <rect key="frame" x="276" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="xEp-hf-hTf"/>
+                    </constraints>
+                    <state key="normal" image="TypeSelectorBtn_Black"/>
+                    <state key="highlighted" image="TypeSelectorBtnHL_Black"/>
+                    <connections>
+                        <action selector="moreBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Nn6-FK-73u"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c0T-7J-nxT">
+                    <rect key="frame" x="44" y="5" width="188" height="34"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Vo0-Sv-4dy" secondAttribute="bottom" id="0LY-6X-wJE"/>
+                <constraint firstItem="JNv-JS-3Y5" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="26D-2d-d1B"/>
+                <constraint firstItem="OCj-Cq-KdU" firstAttribute="height" secondItem="Vo0-Sv-4dy" secondAttribute="height" id="2Vk-AD-3AF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Vo0-Sv-4dy" secondAttribute="trailing" id="7Ss-V0-T8I"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="c0T-7J-nxT" secondAttribute="bottom" constant="5" id="WoJ-QH-2Mc"/>
+                <constraint firstItem="JNv-JS-3Y5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Xyp-XQ-Xgq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="JNv-JS-3Y5" secondAttribute="bottom" id="ZkZ-JC-fbN"/>
+                <constraint firstItem="OCj-Cq-KdU" firstAttribute="leading" secondItem="c0T-7J-nxT" secondAttribute="trailing" id="bYz-n5-XO4"/>
+                <constraint firstItem="c0T-7J-nxT" firstAttribute="leading" secondItem="JNv-JS-3Y5" secondAttribute="trailing" id="eJQ-Iy-L0X"/>
+                <constraint firstItem="Vo0-Sv-4dy" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="gCt-Sm-Jei"/>
+                <constraint firstItem="OCj-Cq-KdU" firstAttribute="bottom" secondItem="Vo0-Sv-4dy" secondAttribute="bottom" id="gb3-vG-e6G"/>
+                <constraint firstItem="c0T-7J-nxT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="hyP-H8-Mys"/>
+                <constraint firstItem="OCj-Cq-KdU" firstAttribute="top" secondItem="Vo0-Sv-4dy" secondAttribute="top" id="jt4-Ek-tM8"/>
+                <constraint firstItem="Vo0-Sv-4dy" firstAttribute="leading" secondItem="OCj-Cq-KdU" secondAttribute="trailing" id="kQG-Rd-f5e"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="textField" destination="c0T-7J-nxT" id="Dzb-Nu-Hzj"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="ToolViewEmotion" width="35" height="35"/>
+        <image name="ToolViewEmotionHL" width="35" height="35"/>
+        <image name="ToolViewInputVoice" width="35" height="35"/>
+        <image name="ToolViewInputVoiceHL" width="35" height="35"/>
+        <image name="TypeSelectorBtnHL_Black" width="35" height="35"/>
+        <image name="TypeSelectorBtn_Black" width="35" height="35"/>
+    </resources>
+</document>
