@@ -7,17 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef enum : NSUInteger {
-    XMGInputStyleText = 0,
-    XMGInputStyleVoice,
-} XMGInputStyle;
-
-typedef enum : NSUInteger {
-    XMGVoiceStatusSpeaking = 0,
-    XMGVoiceStatusSend,
-    XMGVoiceStatusWillCancle,
-    XMGVoiceStatusCancled,
-} XMGVoiceStatus;
 
 @class WMTinputview;
 @protocol WMTinputview <NSObject>
