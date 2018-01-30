@@ -1,4 +1,4 @@
 
-#import <HyphenateLite/HyphenateLite.h>
-#import <Hyphenate/Hyphenate.h>
+
 #import "UIView+Frame.h"
+#define BackGround243Color [UIColor colorWithRed:243/255.0 green:243/255.0 blue:243/255.0 alpha:1]

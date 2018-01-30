@@ -10,7 +10,7 @@
 
 @class WMTinputview;
 @protocol WMTinputview <NSObject>
-//@optional
+@optional
 /** 更多按钮的点击 */
 - (void)wmt_inputview:(WMTinputview *)inputView moreBtnClickWith:(NSInteger)moreStyle;
 

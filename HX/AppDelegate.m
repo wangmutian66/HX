@@ -20,11 +20,11 @@
     // Override point for customization after application launch.
     //AppKey:注册的AppKey，详细见下面注释。
     //apnsCertName:推送证书名（不需要加后缀），详细见下面注释。
-//    self.window.backgroundColor = [UIColor redColor];
-    EMOptions *options = [EMOptions optionsWithAppkey:@" 1195180123178705#suibiantian"];
-    options.apnsCertName = nil;
-    [[EMClient sharedClient] initializeSDKWithOptions:options];
-    [application setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+    self.window.backgroundColor = BackGround243Color;
+//    EMOptions *options = [EMOptions optionsWithAppkey:@" 1195180123178705#suibiantian"];
+//    options.apnsCertName = nil;
+//    [[EMClient sharedClient] initializeSDKWithOptions:options];
+//    [application setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
     return YES;
 }
 

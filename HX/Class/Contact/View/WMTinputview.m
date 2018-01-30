@@ -39,14 +39,7 @@
         [self.textField resignFirstResponder];
     }
     NSLog(@"more1");
-//    UIView *view =[[UIView alloc] init];
-//    view.frame=CGRectMake(0, 0, self.wmt_width, self.wmt_height+10);
-//    view.backgroundColor=[UIColor redColor];
-//    [self addSubview:view];
-//
-//    [UIView animateWithDuration:1 animations:^{
-//        self.wmt_y=300;
-//    }];
+
     // 2.根据下方keyboard的高度(控制器.view的y值,来确定它的滑入滑出状态)
     
     if ([self.delegate respondsToSelector:@selector(wmt_inputview:moreBtnClickWith:)]) {
